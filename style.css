@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{    /* This sets the default font for the site*/
+        font-family: "Source Sans 3", sans-serif; 
+    background-color: #8cc78d;
+    color: #ffffff;
+   max-width: 700px ;
+   margin-left: auto;
+   margin-right: auto;
+   
+}
+h1,h2,h3{font fontfamily: "sans",sans-serif;}
+h1{color: #f57600;}
+
+/* NAVIGATION STYLING */
+nav ul{list-style-type: none;
+padding: 0;
+margin:0 ;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Keeping images contained */
+img,video{
+    max-width: 100%;
+    height:auto;
+}
+
+figure{
+    /*removes the default margin on the fig */
+    margin:0;
+}
+      
+
+
+
+
