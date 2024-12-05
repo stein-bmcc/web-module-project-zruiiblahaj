@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+body{    /* This sets the default font for the site*/
+    font-family: "Fontdiner Swanky", serif;
+    background-color:mintcream;
+    color:black;
+   max-width: 800px ;
+   margin-left: 300px;
+   line-height: 1.5;
+   
+   }
+   .site-title{font-size: 2rem;
+    font-weight:200}
+.site-title{text-align:center;color}
+
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');  
+h1,h3,p,h5,ol{ font-family: "Roboto Flex", sans-serif;}
+
+/* Basic control*/
+header{background-color: blueviolet;
+color: #ffffff;}
+
+h3,h5{margin-left: 30px;}
+h3{color: #89ce00;}
+
+h1{color: #b9b8b5;
+background-color: white;
+padding:30px;
+margin:30px;
+border:1px solid black;
+}
+
+
+h5 {color: #89ce00;}
+ol{font-size: small;}
+h4{color: azure; background-color: blueviolet;
+    }
+
+figcaption{font-size: 10px;}
+
+p{width:600px;
+    background:blueviolet;
+    padding:30px;
+    margin:30px;
+    color: #ffffff;}
+
+    /* NAVIGATION STYLING */
+nav ul{list-style-type: none;
+padding:0 ;
+margin:0;
+display:flex;
+flex-direction:row;
+gap:25px;
+justify-content:center;
+
+}
+
+nav li{
+    display:inline-table;
+    margin-right: 20px;
+}
+
+
+/* Keeping images contained */
+img,video{
+    max-width:100%;
+    height:auto;
+}
+
+figure{
+    /*removes the default margin on the fig */
+    margin: 50px;
+}
+html{font-size: 100%;
+     line-height:1.5;
+}
+
+
+/*hyperlink(a) styling*/
+ul{color:white;}
+
+ul:hover{color:blueviolet;}  
+
+
+
+
+
+
+
+
+
+
+
+
